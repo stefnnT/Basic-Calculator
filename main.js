@@ -116,17 +116,3 @@ const displayCalc = (answer, div) => {
 	}
 }
 
-const display = _ => {
-	console.log("we here")
-	const calculator = document.querySelector('.main')
-	console.log(calculator)
-	console.log(window.innerWidth)
-	if (window.innerWidth > 1000) {
-		calculator.style.width = 0.5 * window.innerWidth;
-		calculator.style.height = 640;
-		console.log(window.innerWidth)
-		console.log('got here');
-	}
-}
-
-display();
