@@ -1,0 +1,105 @@
+body{
+	/*min-height: 100% !important;*/
+	height: 100%;
+	line-height: 100%;
+	background-color: #e7f2c9;
+	font-family: 'Orbitron', sans-serif;
+}
+
+input {
+	font-family: 'Orbitron', sans-serif;
+}
+
+.main{
+	background: black;
+	width: 100%;
+	/*width: 500px;*/
+	height: 100%;
+	border-radius: 5px;
+	opacity: 0.4;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	text-align: center;	
+}
+
+.calculator {
+	height: 100%;
+	width: 100%
+	background: #fffafa;
+	/*margin: 1%;*/
+}
+
+/*background: #fffafa;*/
+.display-container {
+	height: 40%;
+}
+
+.display {
+	text-align: right;
+	font-size: 30px;
+	width: 100%;
+	border: none;
+	/*font-weight: 400;*/
+}
+
+.raw {
+	background: pink;
+	color: black;
+	height: 50%;
+	line-height: 400%;
+
+}
+
+.clean {
+	background: blue;
+	text-align: right;
+	width: 94%;
+	padding: 0 3%;
+	color: orange;
+	font-size: 3em;
+	height: 50%;
+	line-height: 250%;
+}
+
+
+
+.keys-container {
+	background: #fffafa;
+	height: 60%;
+	display: grid;
+	grid-gap: 1px;
+	/*grid-template-columns: auto auto auto auto auto;*/
+}
+
+.keys-container > button {
+	background: orange;
+	border: none;
+	font-size: 1.5em;
+	font-weight: lighter;
+	font-family: 'Orbitron', sans-serif;
+	/*line-height: 250%;*/
+	/*padding: 0% 0;*/
+	
+}
+
+.key15.equals {
+	grid-column-start: 5;
+	grid-row-start: 3;
+	grid-row-end: 5;
+	/*padding: 58% 0;*/
+}
+
+.key16 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.key16 {
+	font-size: bolder;
+}
+
+
+/*font-family: 'Open Sans Condensed', sans-serif;*/
+/*font-family: 'Shadows Into Light', cursive;*/

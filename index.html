@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+
+	<title>Simple Calculator App</title>
+</head>
+<body>
+
+	<div class="main">
+		<div class="calculator">
+			<div class="display-container">
+				<div class="display raw">0</div>
+				<div class="display clean"></div>
+			</div>
+			<div class="keys-container">
+				<button value="7" class="key1">7</button>
+				<button value="8" class="key2">8</button>
+				<button value="9" class="key3">9</button>
+				<button value="divide" class="key4 operator" data-action="divide">&divide;</button>
+				<button value="delete" class="key5" data-action="delete">&larr;</button>
+				<button value="4" class="key6">4</button>
+				<button value="5" class="key7">5</button>
+				<button value="6" class="key8">6</button>
+				<button value="multiply" class="key9 operator" data-action="multiply">&times;</button>
+				<button value="clear" class="key10" data-action="clear">C</button>
+				<button value="1" class="key11">1</button>
+				<button value="2" class="key12">2</button>
+				<button value="3" class="key13">3</button>
+				<button value="subtract" class="key14 operator" data-action="subtract">&#x002D;</button>
+				<button value="compute" class="key15 equals" data-action="compute">&equals;</button>
+				<button value="0" class="key16">0</button>
+				<button value="decimal" class="key17" data-action="decimal">&middot;</button>
+				<button value="add" class="key18 operator" data-action="add">&plus;</button>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="main.js"></script>
+
+</body>
+</html>
